@@ -1,0 +1,115 @@
+@media only screen and (max-width : 1440px)
+	.container
+		max-width: 1200px
+
+	.main
+		padding: 100px 0
+
+@media only screen and (max-width : 1200px)
+	.container
+		max-width: 992px
+
+	.main
+		padding: 60px 0
+		font-size: 18px
+
+		h1
+			font-size: 36px
+
+		&__header,
+		&__content,
+		&__footer
+			max-width: 70%
+
+		&__header,
+		&__content
+			margin-bottom: 30px
+
+		&__content
+			&_info
+				max-width: 40%
+
+			li
+				margin-bottom: 10px
+
+
+@media only screen and (max-width : 992px)
+	.container
+		max-width: 776px
+
+	.main__content_info
+		max-width: 43%
+
+	iframe
+		height: 350px
+
+	.footer
+		padding: 20px
+
+@media only screen and (max-width : 767px)
+	.container
+		max-width: 576px
+
+	.main
+		background-image: none
+		padding: 40px 0
+
+		&__header,
+		&__content,
+		&__footer
+			max-width: 100%
+
+@media only screen and (max-width : 576px)
+	.container
+		max-width: 100%
+
+	.main
+		&__header,
+		&__content,
+		&__footer
+			max-width: 100%
+			flex-wrap: wrap
+			justify-content: center
+
+		&__header
+			text-align: center
+
+		&__content
+			&_info
+				max-width: 53%
+
+				img
+					width: 20px
+
+				div
+					margin-bottom: 15px
+
+			ul
+				margin-bottom: 25px
+
+		&__footer
+			justify-content: space-around
+			text-align: center
+			
+			p
+				margin-bottom: 10px
+
+			img
+				width: 50px
+
+			br
+				display: none
+
+
+@media only screen and (max-width : 480px)
+	.main
+		&__content
+			&_info
+				max-width: 70%
+
+			div
+				justify-content: center
+				text-align: center
+
+			img
+				display: none
